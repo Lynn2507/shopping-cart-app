@@ -10,3 +10,4 @@ Knowledge that has been used to finish this personal roject:
 - Favicon
 - Web Application Manifest(JSON file that determines how your app looks and behaves once installed on a user's desktop or mobile device)
   
+Click here https://lynns-shopping-cart.netlify.app/ to check out the webapp!
