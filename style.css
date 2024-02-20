@@ -1,6 +1,9 @@
 html, body {
-    font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4; 
+    font-family: 'Kode Mono', monospace;
+    background-color: #f0e6e1; 
+    font-weight: bolder;
+    color: #b46012;
+    user-select: none;
 }
 
 .container {
@@ -18,8 +21,9 @@ img {
 input {
     color: #432000;
     background-color: #DCE1EB;
-    font-family: 'Rubik', sans-serif;
-    font-size: 17px;
+    font-family: 'Kode Mono', monospace;
+    font-size: 18px;
+    font-weight: bolder;
     text-align: center;
     display: block;
     border: 0;
@@ -32,13 +36,19 @@ input {
 
 button {
     color: #FDFDFD;
-    background-color: #AC485A;    
-    font-family: 'Rubik', sans-serif;
+    background-color: #71c1fd;    
+    font-family: 'Kode Mono', monospace;
     border: 0;
-    font-size: 17px;
+    font-size: 18px;
+    font-weight: bolder;
     text-align: center;
     border-radius: 5px;
     padding: 5px;
+}
+
+button:hover {
+    background-color: #aed3e1;
+    cursor: pointer;
 }
 
 ul {
@@ -50,7 +60,7 @@ ul {
 }
 
 ul li {
-    background-color: #FFFDF8;
+    background-color:#f0efc3;
     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin: 5px;
@@ -58,4 +68,9 @@ ul li {
     overflow: auto;
     border-radius: 5px;
     text-align: center;
+}
+
+ul li:hover {
+    background-color: #edcbf2;
+    cursor: pointer;
 }
